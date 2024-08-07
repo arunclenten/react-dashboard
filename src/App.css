@@ -1,0 +1,31 @@
+.sidebar-menu{
+    z-index: 10;
+}
+.search-box{
+    margin-left: 300px;
+}
+#bar-chart{
+    min-height: 250px;
+}
+.dash{
+    margin-top: 60px;
+}
+.side-bar-new {
+    height: 100%;
+}
+.scroll-content{
+    scrollbar-width: none;
+}
+
+  .group:hover .group-hover\:before\:bg-blue-400::before {
+    content: var(--tw-content);
+    --tw-bg-opacity: 1;
+    background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+    left: -24px;
+    height: 35px;
+}
+@media (min-width:1025px){
+    .menuitem{
+        margin-top: 70px;
+    }
+}
